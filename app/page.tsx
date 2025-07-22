@@ -12,7 +12,7 @@ import { useEffect, useState } from "react";
 
 // theme color #124d99
 
-const metadata: Metadata = {
+export const metadata: Metadata = {
   title: "Used Cars for Sale in UAE | YallaMotor",
   description:
     "Find the best used cars for sale in UAE. Browse through our extensive collection of pre-owned vehicles from top brands like Toyota, BMW, Mercedes, and more.",
