@@ -20,15 +20,15 @@ const Header = () => {
           </div>
           
           <div className="hidden md:flex space-x-6">
-            <a href="/used-cars" className="text-gray-700 hover:text-blue-600 font-medium">
+            <Link href="/used-cars" className="text-gray-700 hover:text-blue-600 font-medium">
               Used Cars
-            </a>
-            <a href="/sell" className="text-gray-700 hover:text-blue-600 font-medium">
+            </Link>
+            <Link href="/sell" className="text-gray-700 hover:text-blue-600 font-medium">
               Sell Your Car
-            </a>
-            <a href="/about" className="text-gray-700 hover:text-blue-600 font-medium">
+            </Link>
+            <Link href="/about" className="text-gray-700 hover:text-blue-600 font-medium">
               About
-            </a>
+            </Link>
           </div>
         </nav>
       </div>

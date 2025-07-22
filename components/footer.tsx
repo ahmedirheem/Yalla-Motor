@@ -23,19 +23,19 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <a href="/used-cars" className="hover:text-white">
+                <Link href="/used-cars" className="hover:text-white">
                   Used Cars
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/sell" className="hover:text-white">
+                <Link href="/sell" className="hover:text-white">
                   Sell Your Car
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/about" className="hover:text-white">
+                <Link href="/about" className="hover:text-white">
                   About Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -43,19 +43,19 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Popular Brands</h4>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <a href="/used-cars/toyota" className="hover:text-white">
+                <Link href="/used-cars/toyota" className="hover:text-white">
                   Toyota
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/used-cars/bmw" className="hover:text-white">
+                <Link href="/used-cars/bmw" className="hover:text-white">
                   BMW
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/used-cars/mercedes" className="hover:text-white">
+                <Link href="/used-cars/mercedes" className="hover:text-white">
                   Mercedes
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
