@@ -24,7 +24,7 @@ type Props = {
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>
 }
 
-const cars = carsInfo as CarsData
+const cars = carsInfo as any
 
 async function getCarById(id: string): Promise<Car | null> {
   const allCars: Car[] = [
