@@ -87,7 +87,7 @@ export async function generateMetadata({ params }: {
 export default async function CarDetailPage({ params }: {
   params: { id: string }
 }): Promise<ReactElement> {
-  const { id } = await params
+  const { id } = params
 
   const car = await getCarById(id);
   if (!car) {
