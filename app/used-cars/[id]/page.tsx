@@ -19,6 +19,11 @@ type CarsData = {
   }
 }
 
+type Props = {
+  params: Promise<{ id: string }>
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>
+}
+
 const cars = carsInfo as CarsData
 
 async function getCarById(id: string): Promise<Car | null> {
@@ -29,9 +34,7 @@ async function getCarById(id: string): Promise<Car | null> {
   return allCars.find((car) => car.id.toString() === id.toString()) || null
 }
 
-export async function generateMetadata({ params }: {
-  params: Promise<{ id: string }>
-}): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { id } = await params
   const car = await getCarById(id)
 
@@ -84,12 +87,10 @@ export async function generateMetadata({ params }: {
   }
 }
 
-export default async function CarDetailPage({ params }: {
-  params: Promise<{ id: string }>
-}): Promise<ReactElement> {
+export default async function CarDetailPage({ params }: Props) {
   const { id } = await params
+  const car = await getCarById(id)
 
-  const car = await getCarById(id);
   if (!car) {
     notFound()
   }
