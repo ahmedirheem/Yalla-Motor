@@ -32,7 +32,7 @@ async function getCarById(id: string): Promise<Car | null> {
 export async function generateMetadata({ params }: {
   params: { id: string }
 }): Promise<Metadata> {
-  const { id } = await params
+  const { id } = params
   const car = await getCarById(id)
 
   if (!car) {
