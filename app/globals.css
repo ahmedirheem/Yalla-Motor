@@ -112,38 +112,6 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
-/* .custom-description h2 {
-  @apply text-2xl font-bold text-primary mt-8 mb-4 border-b border-primary pb-2;
-}
-
-.custom-description h3 {
-  @apply text-xl font-semibold text-secondary mt-6 mb-3;
-}
-
-.custom-description p {
-  @apply text-gray-700 text-base;
-}
-
-.custom-description ul {
-  @apply list-disc pl-6 text-gray-700;
-}
-
-.custom-description ol {
-  @apply list-decimal pl-6 text-gray-700;
-}
-
-.custom-description li {
-  @apply mb-2;
-}
-
-.custom-description strong {
-  @apply text-primary font-semibold;
-}
-
-.custom-description img {
-  @apply w-full max-w-xl mx-auto rounded-xl shadow-md my-6;
-} */
-
 .car-description h2 {
   @apply text-2xl font-bold text-[#124d99] border-b border-gray-200 pb-2 mb-4;
 }
