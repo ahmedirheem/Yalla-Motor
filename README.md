@@ -36,8 +36,8 @@ The website built using modern frontend technologies **Next.js**, **TypeScript**
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/used-cars-marketplace.git
-cd used-cars-marketplace
+git clone https://github.com/ahmedirheem/Yalla-Motor.git
+cd Yalla-Motor
 ```
 
 ### 2. Install dependencies
